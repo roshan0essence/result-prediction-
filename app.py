@@ -6,14 +6,7 @@ from sklearn.linear_model import LinearRegression
 # --- Model training (use your same dataset)
 import pandas as pd
 
-data = {
-    'StudyHours': [4, 2, 5, 1, 3, 6, 2.5, 4.5, 1.5, 5.5],
-    'Attendance': [90, 60, 95, 50, 75, 98, 70, 85, 55, 96],
-    'SleepHours': [7, 6, 8, 5, 6, 7, 6, 7, 5, 8],
-    'PastScore': [75, 55, 82, 40, 65, 90, 60, 78, 45, 88],
-    'Participation': [1, 0, 1, 0, 1, 1, 0, 1, 0, 1],
-    'FinalScore': [80, 58, 85, 45, 70, 92, 63, 82, 50, 90]
-}
+data = pd.read_csv('student_performance.csv')
 
 df = pd.DataFrame(data)
 X = df[['StudyHours', 'Attendance', 'SleepHours', 'PastScore', 'Participation']]
