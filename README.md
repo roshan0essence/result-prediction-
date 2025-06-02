@@ -14,45 +14,45 @@ This project uses a small, custom-built dataset to train a Linear Regression mod
 
 <b>💬 Class Participation</b>
 
-🚀 Technologies Used
-Python
+<h2>🚀 Technologies Used
+Python</h2>
 
-pandas
+<b>pandas</b>
 
-scikit-learn
+<b>scikit-learn</b>
 
-matplotlib
+<b>matplotlib</b>
 
-numpy
+<b>numpy</b>
 
-📊 Model Evaluation
+<h2>📊 Model Evaluation</h2>
 The model was evaluated using:
 
-Mean Absolute Error (MAE)
+<b>Mean Absolute Error (MAE)</b>
 
-R² Score
+<b>R² Score</b>
 
-Visual comparison of actual vs predicted scores
+<b>Visual comparison of actual vs predicted scores</b>
 
-📈 Visualization
+<h2>📈 Visualization</h2>
 A bar chart visually shows the difference between real and predicted scores for test data.
 
 
-💡 What I Learned
-How to structure a dataset
+<h2>💡 What I Learned</h2>
+<b>How to structure a dataset</b>
 
-How to apply regression modeling using scikit-learn
+<b>How to apply regression modeling using scikit-learn</b>
 
-Basics of evaluating model performance
+<b>Basics of evaluating model performance</b>
 
-How to visualize results with matplotlib
+<b>How to visualize results with matplotlib</b>
 
-✅ Future Improvements
-Expand dataset for better accuracy
+<h2>✅ Future Improvements</h2>
+<b>Expand dataset for better accuracy</b>
 
-Use more advanced models (e.g., Random Forest, XGBoost)
+<b>Use more advanced models (e.g., Random Forest, XGBoost)</b>
 
-Create a user interface for inputs and predictions
+<b>Create a user interface for inputs and predictions</b>
 
-🧠 Try It Yourself!
+<h2>🧠 Try It Yourself!</h2>
 Clone the repo, run the script, and tweak the dataset to see how predictions change.
