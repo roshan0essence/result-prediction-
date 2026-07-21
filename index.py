@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Create the dataset
-data = pr.read_csv('student_performance.csv')
+data = pd.read_csv('student_performance.csv')
 # Step 2: Load into a DataFrame
 df = pd.DataFrame(data)
 
